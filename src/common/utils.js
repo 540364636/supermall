@@ -7,7 +7,7 @@ export function debounce(func, delay) {
       func.apply(this, args)
     }, delay)
   }
-};
+}
 
 export function formatDate(date, fmt) {
   
@@ -28,7 +28,7 @@ export function formatDate(date, fmt) {
     }
   }
   return fmt;
-};
+}
 
 function padLeftZero(str) {
   return ('00' + str).substr(str.length);
